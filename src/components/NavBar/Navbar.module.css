@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    background-color: #7E1701;
+    align-items: center;
+    border-bottom: 1.5px solid #000;
+}
+
+.logo {
+    width: 40px;
+    border-radius: 90px;
+    margin: 0 3.5em;
+}
+
+.containerNavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px;
+}
+
+.link {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 13px;
+    padding-right: 8em;
+}
+
+.barraNavbar {
+    padding: 17px .5px;
+    background-color: #FFF;
+    margin-right: 5em;
+}
+
+.entrar {
+    background-color: #FFF;
+    padding: 5px 50px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
