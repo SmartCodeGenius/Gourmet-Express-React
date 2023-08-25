@@ -2,7 +2,6 @@ import logo from './logo.png';
 import styles from './Navbar.module.css';
 
 export default function Navbar() {
-    
   return (
     <nav className={styles.navbar}>
         <img src={logo} className={styles.logo} alt="Logo da Gourmet Express"/>
