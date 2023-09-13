@@ -7,27 +7,33 @@
 .logo {
     width: 40px;
     border-radius: 90px;
-    margin: 0 3.5em;
+    margin: 0 3em;
 }
 
 .containerNavbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 8px;
+    margin: 8px 0px;
 }
 
 .link {
     color: #FFF;
     text-decoration: none;
     font-size: 13px;
-    padding-right: 8em;
+    padding: 5px 55px;
+    margin-right: 40px;
+    border-radius: 5px;
+}
+
+.link:hover {
+    background-color: #BB1111;
 }
 
 .barraNavbar {
     padding: 17px .5px;
     background-color: #FFF;
-    margin-right: 5em;
+    margin-right: 40px;
 }
 
 .entrar {

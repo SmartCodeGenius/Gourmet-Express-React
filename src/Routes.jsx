@@ -7,7 +7,10 @@ export default function AppRoutes() {
     <BrowserRouter>
       <Routes>
         <Route index path="/" element={<PaginaInicial/>}/>
-        <Route index path="*" element={<PaginaNEncontrada/>}/>
+        <Route index path="/planos" element={<PaginaInicial/>}/>
+        <Route index path="/quemsomos" element={<PaginaInicial/>}/>
+        <Route index path="/suporte" element={<PaginaInicial/>}/>
+        <Route path="*" element={<PaginaNEncontrada/>}/>
       </Routes>
     </BrowserRouter>
   );
