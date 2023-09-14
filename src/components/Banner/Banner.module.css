@@ -1,7 +1,6 @@
 .bannerContainer {
     background: url('./Banner.png') no-repeat;
-    object-fit: ;
-    width: 100%;
+    block-size: fit-content;
     height: 400px;
 }
 

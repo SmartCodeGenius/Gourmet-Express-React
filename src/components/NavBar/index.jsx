@@ -4,7 +4,7 @@ import styles from './Navbar.module.css';
 
 export default function Navbar() {
   const opcoes = [
-    {nome: 'Início', url: ''},
+    {nome: 'Início', url: '/'},
     {nome: 'Planos', url: 'planos'},
     {nome: 'Quem somos', url: 'quemsomos'},
     {nome: 'Suporte', url: 'suporte'},

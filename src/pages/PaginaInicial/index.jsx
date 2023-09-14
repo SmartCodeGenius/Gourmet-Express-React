@@ -1,13 +1,12 @@
 import Banner from "../../components/Banner";
-import Footer from "../../components/Footer";
-import Navbar from "../../components/NavBar";
+import MainPaginaInicial from "../../components/MainPaginaInicial";
+
 
 export default function PaginaInicial() {
   return (
     <>
-        <Navbar/>
         <Banner/>
-        <Footer/>
+        <MainPaginaInicial/>
     </>
   );
 }
