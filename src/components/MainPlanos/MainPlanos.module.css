@@ -1,0 +1,14 @@
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.planosContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
