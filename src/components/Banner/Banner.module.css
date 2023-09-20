@@ -4,11 +4,6 @@
     height: 400px;
 }
 
-.banner {
-    width: 100%;
-    overflow: hidden;
-}
-
 .gmContainer {
    display: flex;
    flex-direction: column;
